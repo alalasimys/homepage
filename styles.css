@@ -6,9 +6,6 @@
   background: yellow;
 }
 
-::selection {
-  background: yellow;
-}
 *,
 *:before,
 *:after {
@@ -107,9 +104,6 @@ section {
   padding: 1em 0;
 }
 
-section {
-  padding: 1em 0;
-}
 p {
   margin: 0 0 1em;
   line-height: 1.4285em;
@@ -131,18 +125,6 @@ small {
   font-size: 80%;
 }
 
-p:first-child {
-  margin-top: 0;
-}
-p:last-child {
-  margin-bottom: 0;
-}
-strong {
-  font-weight: 600;
-}
-small {
-  font-size: 80%;
-}
 ul,
 ol {
   list-style: none outside none;
@@ -158,12 +140,6 @@ li {
   list-style: none outside none;
 }
 
-ol {
-  counter-reset: ol-counter;
-}
-li {
-  list-style: none outside none;
-}
 ul > li:before {
   content: "●";
   font-family: "Arial";
@@ -231,9 +207,6 @@ sub {
   bottom: -0.25em;
 }
 
-sub {
-  bottom: -0.25em;
-}
 sup {
   top: -0.5em;
 }
