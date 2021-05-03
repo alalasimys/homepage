@@ -66,6 +66,7 @@ h2 + p {
   margin-bottom: 0.25em;
 }
 h3 {
+  margin-top: 20px;
   font-weight: 700;
   font-size: 1.25rem;
   letter-spacing: 0.15em;
@@ -75,6 +76,7 @@ h4 {
 }
 
 h5 {
+  margin-top: 10px;
   font-size: 1rem;
 }
 h6 {
@@ -1102,7 +1104,9 @@ footer {
   }
 }
 
-.profession-title {
+.profession-title,
+.projects-title,
+.work-title {
   margin-top: 10px;
   margin-bottom: 10px;
 
@@ -1141,4 +1145,39 @@ footer {
 
 .accent {
   color: rgb(172, 39, 83);
+}
+
+.projects-subtitle {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.projects-link,
+.tech-name {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #921e88;
+}
+
+.dots {
+  color: #a8a8a8;
+  font-weight: 100;
+}
+
+.projects-item {
+  font-weight: 700;
+  margin-left: 20px;
+}
+
+.projects {
+  margin-bottom: 55px;
+}
+
+.profession-title {
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  margin-top: 10px;
+  margin-bottom: 15px;
 }
